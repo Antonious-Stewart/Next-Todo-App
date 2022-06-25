@@ -12,3 +12,35 @@
   justify-content: center;
   align-items: center;
 }
+
+.wrapper {
+  display: flex;
+  flex-grow: 0;
+}
+
+.card {
+ width: 400px;
+ height: 300px;
+}
+
+.flexEnd{
+  justify-content: end;
+}
+
+.completed {
+  background: linear-gradient(300deg, lightgreen,yellow);
+  border: lightgreen solid 1px;
+  color: gray;
+}
+
+.incomplete {
+  background-color: blue;
+}
+
+.create {
+  background-color: blueviolet;
+}
+
+.viewAll {
+  background-color: cornflowerblue;
+}
